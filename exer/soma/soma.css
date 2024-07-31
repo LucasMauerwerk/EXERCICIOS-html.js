@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+.conteiner-soma {
+    width: 30%;
+    height: 60%;
+    background-color: aliceblue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20%;
+    margin-left: 35%;
+    border-radius: 60px;
+    
+    
+
+}
+h1{
+    font-size: 50px;
+    color: aliceblue;
+}
+.me{
+    color: black;
+    font-size: 50px;
+}
+
+.soma {
+text-align: center;
+padding: 50px;
+
+}
+
+.conteiner-soma imput {
+    width: 200px;
+    height: 200px;
+}
+
+.conteiner-soma button {
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: blueviolet;
+    color: aliceblue;
+    margin-top: 30px;
+
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exer/soma/soma.css">
+    <title>soma</title>
+</head>
+
+<body>
+    <h1>Programa de soma</h1>
+    <div class="conteiner-soma">
+        <div class="soma">
+
+            <div><input type="number" id="n1"></div>
+            <h1 class="me">+</h1>
+            <div><input type="number" id="n2"></div>
+            <button id="button">Somar</button>
+            <p id="resultado"></p>
+        </div>
+    </div>
+</body>
+<script>
+    let button = document.getElementById('button')
+    button.addEventListener('click', function () {
+       // alert('clicaram')
+        let n1 = parseInt(document.getElementById('n1').value)
+        let n2 = parseInt(document.getElementById('n2').value)
+        let soma = n1 + n2
+       document.getElementById('resultado').innerText = 'A soma é: ' + soma
+
+
+
+
+    })
+
+
+</script>
+
+</html>
